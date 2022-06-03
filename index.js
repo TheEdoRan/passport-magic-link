@@ -1,7 +1,5 @@
-require('@babel/polyfill')
-
-const Strategy = require('./lib/Strategy')
+const Strategy = require("./lib/Strategy");
 
 module.exports = {
-  Strategy
-}
+  Strategy,
+};

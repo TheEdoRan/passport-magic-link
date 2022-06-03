@@ -4,16 +4,13 @@
   "description": "Passport JS module for Magic Link authentication",
   "main": "index.js",
   "files": [
-    "/lib",
+    "/src",
     "index.js"
   ],
   "scripts": {
-    "build": "babel src -d lib",
     "dev": "jest --watch",
     "precommit": "lint-staged",
-    "test": "jest",
-    "coverage": "cat ./coverage/lcov.info | ./node_modules/coveralls/bin/coveralls.js",
-    "prepublish": "npm run build"
+    "test": "jest"
   },
   "lint-staged": {
     "*.js": [
@@ -45,16 +42,8 @@
   },
   "homepage": "https://github.com/TheEdoRan/passport-magic-link#readme",
   "devDependencies": {
-    "@babel/cli": "^7.17.10",
-    "@babel/core": "^7.18.2",
-    "@babel/plugin-proposal-object-rest-spread": "^7.18.0",
-    "@babel/plugin-transform-runtime": "^7.18.2",
-    "@babel/preset-env": "^7.18.2",
-    "babel-core": "^7.0.0-bridge.0",
-    "babel-jest": "^28.1.0",
     "chai": "^4.3.6",
     "chai-passport-strategy": "^3.0.0",
-    "coveralls": "^3.1.1",
     "eslint": "^8.16.0",
     "eslint-config-standard": "^17.0.0",
     "eslint-plugin-import": "^2.26.0",
@@ -67,16 +56,9 @@
     "lint-staged": "^13.0.0"
   },
   "jest": {
-    "clearMocks": true,
-    "coverageDirectory": "./coverage/",
-    "collectCoverage": true,
-    "coverageReporters": [
-      "lcov"
-    ]
+    "clearMocks": true
   },
   "dependencies": {
-    "@babel/polyfill": "^7.0.0",
-    "@babel/runtime": "^7.18.3",
     "jsonwebtoken": "^8.5.1",
     "passport-strategy": "^1.0.0"
   }

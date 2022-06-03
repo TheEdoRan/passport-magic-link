@@ -2,9 +2,6 @@
 
 Magic Link authentication for Passport JS
 
-[![Build Status](https://travis-ci.org/vinialbano/passport-magic-link.svg?branch=master)](https://travis-ci.org/vinialbano/passport-magic-link)
-[![Coverage Status](https://coveralls.io/repos/github/vinialbano/passport-magic-link/badge.svg?branch=master)](https://coveralls.io/github/vinialbano/passport-magic-link?branch=master)
-
 ## Installation
 
 `npm install passport-magic-link`
