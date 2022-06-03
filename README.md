@@ -4,7 +4,7 @@ Magic Link authentication for Passport JS
 
 ## Installation
 
-`npm install passport-magic-link`
+`npm i @theedoran/passport-magic-link`
 
 ## Usage
 
@@ -26,7 +26,7 @@ The MagicLinkStrategy constructor receives three parameters:
 #### Example
 
 ```javascript
-const MagicLinkStrategy = require("passport-magic-link").Strategy;
+const MagicLinkStrategy = require("@theedoran/passport-magic-link").Strategy;
 
 passport.use(
   new MagicLinkStrategy(
