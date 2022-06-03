@@ -1,6 +1,6 @@
 {
   "name": "@theedoran/passport-magic-link",
-  "version": "2.1.6",
+  "version": "2.1.7",
   "description": "Passport JS module for Magic Link authentication",
   "main": "index.js",
   "files": [
