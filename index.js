@@ -1,4 +1,4 @@
-const Strategy = require("./lib/Strategy");
+const Strategy = require("./src/Strategy");
 
 module.exports = {
   Strategy,
