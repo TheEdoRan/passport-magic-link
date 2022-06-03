@@ -1,6 +1,6 @@
 {
-  "name": "passport-magic-link",
-  "version": "2.1.0",
+  "name": "@theedoran/passport-magic-link",
+  "version": "1.0.0",
   "description": "Passport JS module for Magic Link authentication",
   "main": "index.js",
   "files": [
@@ -24,7 +24,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/vinialbano/passport-magic-link.git"
+    "url": "git+https://github.com/TheEdoRan/passport-magic-link.git"
   },
   "keywords": [
     "passport",
@@ -38,33 +38,33 @@
     "authentication",
     "2FA"
   ],
-  "author": "Vinicius Albano <vinialbano@gmail.com>",
+  "author": "TheEdoRan",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/vinialbano/passport-magic-link/issues"
+    "url": "https://github.com/TheEdoRan/passport-magic-link/issues"
   },
-  "homepage": "https://github.com/vinialbano/passport-magic-link#readme",
+  "homepage": "https://github.com/TheEdoRan/passport-magic-link#readme",
   "devDependencies": {
-    "@babel/cli": "^7.0.0",
-    "@babel/core": "^7.0.0",
-    "@babel/plugin-proposal-object-rest-spread": "^7.0.0",
-    "@babel/plugin-transform-runtime": "^7.0.0",
-    "@babel/preset-env": "^7.0.0",
+    "@babel/cli": "^7.17.10",
+    "@babel/core": "^7.18.2",
+    "@babel/plugin-proposal-object-rest-spread": "^7.18.0",
+    "@babel/plugin-transform-runtime": "^7.18.2",
+    "@babel/preset-env": "^7.18.2",
     "babel-core": "^7.0.0-bridge.0",
-    "babel-jest": "^23.4.2",
-    "chai": "^4.2.0",
-    "chai-passport-strategy": "^1.0.1",
-    "coveralls": "^3.0.2",
-    "eslint": "^5.14.0",
-    "eslint-config-standard": "^11.0.0",
-    "eslint-plugin-import": "^2.16.0",
-    "eslint-plugin-jest": "^21.27.2",
-    "eslint-plugin-node": "^7.0.1",
-    "eslint-plugin-promise": "^4.0.1",
-    "eslint-plugin-standard": "^3.1.0",
-    "husky": "^0.14.3",
-    "jest": "^25.2.3",
-    "lint-staged": "^7.3.0"
+    "babel-jest": "^28.1.0",
+    "chai": "^4.3.6",
+    "chai-passport-strategy": "^3.0.0",
+    "coveralls": "^3.1.1",
+    "eslint": "^8.16.0",
+    "eslint-config-standard": "^17.0.0",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-jest": "^26.4.6",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^6.0.0",
+    "eslint-plugin-standard": "^4.1.0",
+    "husky": "^8.0.1",
+    "jest": "^28.1.0",
+    "lint-staged": "^13.0.0"
   },
   "jest": {
     "clearMocks": true,
@@ -76,8 +76,8 @@
   },
   "dependencies": {
     "@babel/polyfill": "^7.0.0",
-    "@babel/runtime": "^7.3.1",
-    "jsonwebtoken": "^8.4.0",
+    "@babel/runtime": "^7.18.3",
+    "jsonwebtoken": "^8.5.1",
     "passport-strategy": "^1.0.0"
   }
 }
